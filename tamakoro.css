@@ -2,6 +2,19 @@
 
 #thumb2-fixed {
   position: fixed;
+  left: 5vw;
+  top: 5vh;
+  width: 18vw;
+  height: auto;
+  z-index: 9999;
+  display: block;
+  pointer-events: auto;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#thumb2-fixed img { display: block; width: 100%; height: auto; }
+
 /* 009 BACK button (page-local) */
 .button009 { text-align: center; margin: 2.5rem 0 3.5rem; }
 .button009 a {
@@ -24,18 +37,6 @@
   color: #FFF;
   text-decoration: none;
 }
-  left: 5vw;
-  top: 5vh;
-  width: 18vw;
-  height: auto;
-  z-index: 9999;
-  display: block;
-  pointer-events: auto;
-  opacity: 1;
-  cursor: pointer;
-}
-
-#thumb2-fixed img { display: block; width: 100%; height: auto; }
 
 :root {
   --noto-variable-stack: 'Noto Sans JP Variable', 'Noto Sans JP', system-ui, -apple-system, 'Segoe UI', sans-serif;
